@@ -1,0 +1,86 @@
+@media (min-width: 992px) {}
+
+@media (max-width: 991.98px) {
+  #header .navbar-collapse {
+    width: 100%;
+    text-align: center;
+    height: 420px;
+
+  }
+
+  .social {
+    color: var(--primary-color);
+    font-size: 20px;
+    padding: 10px;
+    background-color: var(--white-primary);
+    border-radius: 50%;
+    margin-left: 16px;
+    text-align: center;
+  }
+
+  .fab {
+    width: 30px;
+    height: 30px;
+  }
+
+
+
+  #header .nav-item .menu:hover {
+    background-color: var(--black-secondary);
+    border-bottom: 5px solid var(--black-primary);
+    padding-top: 20px;
+    padding-bottom: 15px;
+    transition: 0.2ms;
+  }
+
+  #header ul {
+    margin-bottom: 29px;
+  }
+
+  #formulario {
+    width: auto;
+    padding: 5px;
+    font-size: 14px;
+    position: initial;
+  }
+
+  #formulario legend {
+    margin-bottom: 10px;
+    margin-top: 0px;
+    font-size: 18px;
+  }
+
+  #formulario input {
+    margin-bottom: 10px;
+  }
+
+
+
+
+
+  #formulario button {
+    width: 90vw;
+    border-radius: 0px;
+    background-color: var(--black-secondary);
+    border: 1px solid var(--black-secondary);
+    color: var(--white-primary);
+    font-size: 20px;
+    transition: 0.2ms;
+  }
+
+  #formulario button:hover {
+    width: 340px;
+    border-radius: 0px;
+    color: var(--white-primary);
+    font-size: 20px;
+    transition: 0.2ms;
+    background-color: var(--submit);
+    border: 1px solid var(--submit);
+    transition: all 0.5s ease-in;
+  }
+
+  #formulario form {
+    margin: 0;
+    padding: 0;
+  }
+}
